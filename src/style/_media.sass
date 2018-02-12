@@ -1,0 +1,207 @@
+// @media screen and (min-width: 1367px)
+
+@media screen and (max-width: 1365px)
+	.shell
+		width: 100%
+		padding: 0 10px
+	.header
+		.nav
+			>ul
+				li
+					a
+						font-size: 14px
+		.top
+			.phone
+				li
+					p
+						font-size: 10px
+					a
+						font-size: 14px
+	.aside
+		li
+			margin-bottom: 5px
+			font-size: 12px
+		.akkardeon
+			ul
+				li
+					a
+						font-size: 14px
+			ul.sub-menu
+				li
+					a
+						font-size: 12px
+	.main
+		.content
+			.slider_home
+				.slider
+					.item
+						.text
+							padding: 5px 20px
+							p
+								font-size: 14px
+								margin-top: 10px
+
+@media screen and (max-width: 1200px)
+	.header
+		.top
+			.logo
+				img
+					max-width: 200px
+				p
+					font-size: 14px
+			.phone
+				li
+					p
+						font-size: 8px
+		.nav
+			>ul
+				li
+					a
+						font-size: 12px
+						padding: 5px
+	.aside
+		padding: 5px
+		width: 25%
+	.main
+		.content
+			width: 75%
+			.new
+				ul
+					a
+						strong
+							font-size: 14px
+
+@media screen and (max-width: 1024px)
+	.mobi
+		display: block
+	.header
+		.top
+			.logo
+				p
+					font-size: 10px
+			.info
+				display: none
+		.nav
+			position: fixed
+			right: -100%
+			z-index: 100
+			&.active
+				right: 0
+				top: 130px
+				background-color: #000
+				>ul
+					flex-direction: column
+	.aside
+		display: none
+	.main
+		.content
+			margin: 0
+			width: 100%
+		&.cat_new
+			.content
+				ul.new
+					li
+						img
+							max-height: 230px
+							min-height: 230px
+						h2
+							font-size: 18px
+	footer
+		p
+			font-size: 14px
+			line-height: 24px
+
+@media screen and (max-width: 800px)
+	.main
+		.content
+			.category
+				li
+					height: 200px
+					a
+						h2
+							font-size: 16px
+		.contact
+			.item
+				max-width: 40%
+				p
+					font-size: 14px
+		&.cat_new
+			.content
+				ul.new
+					li
+						img
+							max-height: 180px
+							min-height: 180px
+	footer
+		p
+			font-size: 12px
+			line-height: 24px
+
+@media screen and (max-width: 640px)
+	.header
+		.top
+			flex-wrap: wrap
+			.phone
+				width: 100%
+				li
+					margin: 0
+	.main
+		.content
+			.category
+				li
+					width: 49%
+			.advance
+				li
+					width: 50%
+			.contact
+				.item
+					max-width: inherit
+		&.cat_new
+			.content
+				ul.new
+					li
+						width: 49%
+
+@media screen and (max-width: 480px)
+	.header
+		.top
+			.logo
+				img
+					max-width: 100%
+					width: 100%
+			.phone
+				ul
+					align-items: flex-end
+					margin-top: -25px
+	.main
+		.content
+			.slider_home
+				display: none
+			.category
+				li
+					width: 100%
+			.advance
+				li
+					width: 100%
+				h2
+					font-size: 19px
+			.new
+				ul
+					flex-direction: column
+					li
+						width: 100%
+			.contact
+				flex-direction: column-reverse
+				.item
+					position: static
+					width: 100%
+			.vid
+				p
+					width: 100%
+		&.cat_new
+			.content
+				ul.new
+					li
+						width: 100%
+
+// @media screen and (max-width: 320px)
